@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Newake;
+    src: url("fonts/newake.otf");
+}
+
+h1 {
+    font-family: Newake;
+}
+
+.gradient-text {
+    --bg-size: 400%;
+    --color-one: #3f5efb;
+    --color-two: #fc466b;
+    background: linear-gradient(
+                  90deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 16s infinite linear;
+  }
+
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
