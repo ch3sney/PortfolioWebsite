@@ -2,4 +2,4 @@
 PortfolioWebsite
 
 
-Check out deployed website at lukechesney.dev
+Check out deployed website at [lukechesney.dev](https://www.lukechesney.dev)
